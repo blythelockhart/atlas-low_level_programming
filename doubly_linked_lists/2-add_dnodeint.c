@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
-  * dlistint_len - adds a new node at the beginning of a list.
+  * add_dnodeint - adds a new node at the beginning of a list.
   * @head: List head
   * @n: add to the list
   * Return: Address of new element, or NULL if it failed.
