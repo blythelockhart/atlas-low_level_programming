@@ -2,6 +2,7 @@
 /**
   * get_dnodeint_at_index - returns the nth node of a list.
   * @head: List head
+  * @index: N.
   * Return: Nth element, or NULL.
   */
 
