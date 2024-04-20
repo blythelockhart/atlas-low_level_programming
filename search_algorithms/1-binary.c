@@ -10,12 +10,11 @@
 
 int binary_search(int *array, size_t size, int value)
 {
-	if (array == NULL)
-		return (-1);
-
 	int left = 0;
 	int right = size - 1;
 
+	if (array == NULL)
+		return (-1);
 	while (left <= right)
 	{
 		int mid = left + (right - left) / 2;
